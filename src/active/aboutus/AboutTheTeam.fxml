@@ -7,13 +7,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1442;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="active.aboutus.AboutTheTeamController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d8bfd8#d8bfd8;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="active.aboutus.AboutTheTeamController">
    <left>
       <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="174.0" layoutY="14.0" text="Meet the Team!" textFill="#902070">
+            <Label layoutX="174.0" layoutY="14.0" text="Meet the Team!" textFill="#1c1390">
                <font>
-                  <Font name="Avenir Next Condensed Bold" size="36.0" />
+                  <Font name="Baloo Thambi Regular" size="41.0" />
                </font>
             </Label>
             <Label layoutX="26.0" layoutY="104.0" text="Arjit Singh">
@@ -59,6 +59,9 @@
       </Pane>
    </left>
    <bottom>
-      <Button mnemonicParsing="false" onAction="#goHome" text="home" BorderPane.alignment="CENTER" />
+      <Button mnemonicParsing="false" onAction="#goHome" text="home" textFill="#f540f5" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Bradley Hand Bold" size="19.0" />
+         </font></Button>
    </bottom>
 </BorderPane>
