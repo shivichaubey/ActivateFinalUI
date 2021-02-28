@@ -19,5 +19,10 @@ public class MainItemsController {
 	 main.showAboutTheAppScene();
 		
 	}
+	@FXML
+	private void goAboutTheTeam() throws IOException{
+		 main.showAboutTheTeam();
+			
+		}
 
 }

@@ -49,6 +49,12 @@ public class Main extends Application {
 		BorderPane help = loader.load();
 		mainLayout.setCenter(help);
 	}
+	public static void showAboutTheTeam() throws IOException{
+		FXMLLoader loader = new FXMLLoader();
+		loader.setLocation(Main.class.getResource("aboutus/AboutTheTeam.fxml"));
+		BorderPane teaminfo = loader.load();
+		mainLayout.setCenter(teaminfo);
+	}
 	
 	public static void showCurrentEventsScene() throws IOException{
 		FXMLLoader loader = new FXMLLoader();
